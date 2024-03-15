@@ -29,20 +29,10 @@ public class DisplayController : MonoBehaviour
         // Check for user input to rotate prefab left or right
         float rotationInput = Input.GetAxis("Horizontal");
         RotatePrefab(rotationInput);
-
-        // Check for user input to cycle through prefabs
-        if (Input.GetKeyDown(KeyCode.N))
-        {
-            CyclePrefab(1); // Next prefab
-        }
-        else if (Input.GetKeyDown(KeyCode.B))
-        {
-            CyclePrefab(-1); // Previous prefab
-        }
     }
 
     // Function to cycle through prefabs
-    void CyclePrefab(int direction)
+    public void CyclePrefab(int direction)
     {
         // Ensure there is at least one prefab in the list
         if (prefabList.Count == 0)
