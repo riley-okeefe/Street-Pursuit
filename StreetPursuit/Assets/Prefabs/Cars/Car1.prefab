@@ -228,7 +228,7 @@ WheelCollider:
     m_ExtremumValue: 1
     m_AsymptoteSlip: 0.5
     m_AsymptoteValue: 0.75
-    m_Stiffness: 1
+    m_Stiffness: 2
   m_IncludeLayers:
     serializedVersion: 2
     m_Bits: 0
@@ -357,7 +357,6 @@ GameObject:
   - component: {fileID: 6740008981273680625}
   - component: {fileID: 3435420719209398783}
   - component: {fileID: 5869221377502192754}
-  - component: {fileID: 6145184093585659568}
   m_Layer: 0
   m_Name: Car1
   m_TagString: Untagged
@@ -435,28 +434,6 @@ MonoBehaviour:
   steeringRange: 30
   steeringRangeAtMaxSpeed: 10
   centreOfGravityOffset: -1
---- !u!64 &6145184093585659568
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2264447973679842837}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 5
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 0}
 --- !u!1 &3278520950215578246
 GameObject:
   m_ObjectHideFlags: 0
@@ -681,11 +658,11 @@ WheelCollider:
     m_AsymptoteValue: 0.5
     m_Stiffness: 1
   m_SidewaysFriction:
-    m_ExtremumSlip: 0.2
+    m_ExtremumSlip: 0.5
     m_ExtremumValue: 1
     m_AsymptoteSlip: 0.5
     m_AsymptoteValue: 0.75
-    m_Stiffness: 1
+    m_Stiffness: 2
   m_IncludeLayers:
     serializedVersion: 2
     m_Bits: 0
@@ -856,7 +833,7 @@ WheelCollider:
     m_ExtremumValue: 1
     m_AsymptoteSlip: 0.5
     m_AsymptoteValue: 0.75
-    m_Stiffness: 1
+    m_Stiffness: 2
   m_IncludeLayers:
     serializedVersion: 2
     m_Bits: 0
@@ -940,11 +917,11 @@ WheelCollider:
     m_AsymptoteValue: 0.5
     m_Stiffness: 1
   m_SidewaysFriction:
-    m_ExtremumSlip: 0.2
+    m_ExtremumSlip: 0.5
     m_ExtremumValue: 1
     m_AsymptoteSlip: 0.5
     m_AsymptoteValue: 0.75
-    m_Stiffness: 1
+    m_Stiffness: 2
   m_IncludeLayers:
     serializedVersion: 2
     m_Bits: 0
