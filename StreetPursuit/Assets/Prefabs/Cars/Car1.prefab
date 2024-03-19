@@ -357,6 +357,7 @@ GameObject:
   - component: {fileID: 6740008981273680625}
   - component: {fileID: 3435420719209398783}
   - component: {fileID: 5869221377502192754}
+  - component: {fileID: 5695051516429334289}
   m_Layer: 0
   m_Name: Car1
   m_TagString: Untagged
@@ -434,6 +435,19 @@ MonoBehaviour:
   steeringRange: 30
   steeringRangeAtMaxSpeed: 10
   centreOfGravityOffset: -1
+--- !u!114 &5695051516429334289
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2264447973679842837}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a975614e1e4b9fd4891af3d741354d09, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  startPos: {x: 294.896, y: 0.36657855, z: 285.47815}
 --- !u!1 &3278520950215578246
 GameObject:
   m_ObjectHideFlags: 0

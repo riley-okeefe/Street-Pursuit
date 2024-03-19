@@ -2,13 +2,13 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class TestCarMovement : MonoBehaviour
+public class CarControl : MonoBehaviour
 {
     public float motorTorque = 2000;
     public float brakeTorque = 2000;
     public float maxSpeed = 20;
-    public float steeringRange = 30;
-    public float steeringRangeAtMaxSpeed = 10;
+    public float steeringRange = 50;
+    public float steeringRangeAtMaxSpeed = 50;
     public float centreOfGravityOffset = -1f;
 
     WheelControl[] wheels;

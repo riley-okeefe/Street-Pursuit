@@ -200,6 +200,7 @@ GameObject:
   - component: {fileID: 7090524134330196545}
   - component: {fileID: 420309267746956971}
   - component: {fileID: 125416859580197988}
+  - component: {fileID: 6471831872026535034}
   m_Layer: 0
   m_Name: Car7
   m_TagString: Untagged
@@ -276,6 +277,19 @@ MonoBehaviour:
   steeringRange: 30
   steeringRangeAtMaxSpeed: 10
   centreOfGravityOffset: -1
+--- !u!114 &6471831872026535034
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1442112437768237132}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a975614e1e4b9fd4891af3d741354d09, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  startPos: {x: 294.896, y: 0.36657855, z: 285.47815}
 --- !u!1 &1906783675180044737
 GameObject:
   m_ObjectHideFlags: 0
