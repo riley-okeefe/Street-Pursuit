@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class CameraScript : MonoBehaviour
+public class DemoCamScript : MonoBehaviour
 {
     public Transform player;
     public float distanceFromPlayer = 10f,
