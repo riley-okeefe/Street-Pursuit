@@ -11,9 +11,7 @@ GameObject:
   - component: {fileID: 8309206058770917491}
   - component: {fileID: 345022813368585612}
   - component: {fileID: 4920242529941724553}
-  - component: {fileID: 7481163705113759323}
-  - component: {fileID: 4044244890811586453}
-  - component: {fileID: 8166043769721532140}
+  - component: {fileID: 2439906654846707514}
   m_Layer: 0
   m_Name: Building_Fruits  Shop
   m_TagString: Untagged
@@ -86,8 +84,8 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &7481163705113759323
-BoxCollider:
+--- !u!64 &2439906654846707514
+MeshCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -104,48 +102,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_ProvidesContacts: 0
   m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 7.464591, y: 11.605602, z: 11.579743}
-  m_Center: {x: -2.1962237, y: 5.802828, z: -0.19871569}
---- !u!65 &4044244890811586453
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6990121864772818913}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 3.667183, y: 11.605602, z: 7.5208435}
-  m_Center: {x: 3.381565, y: 5.802828, z: -2.2186737}
---- !u!65 &8166043769721532140
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6990121864772818913}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 3.335678, y: 11.605602, z: 3.304016}
-  m_Center: {x: 3.2558746, y: 5.802828, z: 3.186615}
+  serializedVersion: 5
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4300000, guid: 0f5d2e6533e3fb44fbd094c173ba3f32, type: 3}
