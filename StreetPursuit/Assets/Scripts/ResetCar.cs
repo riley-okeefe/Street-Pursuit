@@ -6,7 +6,6 @@ using UnityEngine;
 public class ResetCar : MonoBehaviour
 {
     public Vector3 startPos = new Vector3(294.895996f, 0.366578549f, 285.478149f);
-    CarControl car;
 
     // Update is called once per frame
     void Update()

@@ -800,7 +800,6 @@ GameObject:
   m_Component:
   - component: {fileID: 2185991883999665598}
   - component: {fileID: 1061737439925129138}
-  - component: {fileID: 2927855602854178735}
   - component: {fileID: 6215544933102813577}
   m_Layer: 0
   m_Name: Car4
@@ -819,7 +818,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 265.2064, y: 1.1508718, z: 284.50873}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.66315293, y: 0.66315293, z: 0.66315293}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 331786329257530627}
@@ -860,24 +859,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!114 &2927855602854178735
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8143661242317723497}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1b4070022982f0d438f7ab2240cf3f29, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  motorTorque: 2000
-  brakeTorque: 2000
-  maxSpeed: 20
-  steeringRange: 50
-  steeringRangeAtMaxSpeed: 30
-  centreOfGravityOffset: -1
 --- !u!114 &6215544933102813577
 MonoBehaviour:
   m_ObjectHideFlags: 0
