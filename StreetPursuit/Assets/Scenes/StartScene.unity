@@ -217,6 +217,7 @@ RectTransform:
   m_LocalScale: {x: 0, y: 0, z: 0}
   m_ConstrainProportionsScale: 0
   m_Children:
+  - {fileID: 386090626}
   - {fileID: 1254264187}
   - {fileID: 1058365552}
   - {fileID: 1022028984}
@@ -553,11 +554,11 @@ Transform:
   m_GameObject: {fileID: 386090622}
   serializedVersion: 2
   m_LocalRotation: {x: 0.7071068, y: -0, z: -0, w: -0.7071068}
-  m_LocalPosition: {x: -662.895, y: 278.5229, z: 1154}
-  m_LocalScale: {x: 43.144478, y: 50, z: 29.315737}
+  m_LocalPosition: {x: 2.4051826, y: -240.03862, z: 16793.59}
+  m_LocalScale: {x: 1200, y: 1, z: 700}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 297950306}
   m_LocalEulerAnglesHint: {x: 270, y: 0, z: 0}
 --- !u!1 &446114499
 GameObject:
@@ -869,7 +870,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1022028986}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1569873454}
+        m_TargetAssemblyTypeName: LoadScene, Assembly-CSharp
+        m_MethodName: LoadHTP
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1022028986
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1234,7 +1247,6 @@ SceneRoots:
   m_Roots:
   - {fileID: 308502107}
   - {fileID: 888702333}
-  - {fileID: 386090626}
   - {fileID: 297950306}
   - {fileID: 1534068626}
   - {fileID: 1569873455}

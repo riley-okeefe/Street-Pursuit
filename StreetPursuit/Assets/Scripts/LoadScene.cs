@@ -19,4 +19,19 @@ public class LoadScene : MonoBehaviour
     {
         SceneManager.LoadScene("CarSelection");
     }
+
+    public void LoadLevelSelect()
+    {
+        SceneManager.LoadScene("LevelSelection");
+    }
+
+    public void LoadLevelOne()
+    {
+        SceneManager.LoadScene("LevelOne");
+    }
+
+    public void LoadLevelTwo()
+    {
+        SceneManager.LoadScene("LevelTwo");
+    }
 }
