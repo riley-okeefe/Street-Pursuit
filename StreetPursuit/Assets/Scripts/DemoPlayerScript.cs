@@ -64,15 +64,23 @@ public class DemoPlayerScript : MonoBehaviour
         //playerObj.transform.Translate(movement * playerSpeed * Time.deltaTime);
 
         // Player is dead
-        if (!isAlive)
-        {
+        //if (!isAlive)
+        //{
             // Do something
             //Destroy(playerObj);
-            Debug.Log("Player Dead!");
+          //  Debug.Log("Player Dead!");
             //playerObj.GetComponent<Renderer>().material.color = Color.yellow;
             //playerObj.GetComponent<Renderer>().enabled = false;
-        }
+        //}
         //Debug.Log(experiencePoints);
+        if (playerHealth == 0)
+        {
+            isAlive = false;
+            Debug.Log("Player is dead.");
+        } else
+        {
+            Debug.Log(playerHealth);
+        }
     }
 
     private void OnTriggerEnter(Collider other)

@@ -37,7 +37,7 @@ public class CarControl : MonoBehaviour
         // Calculate current speed in relation to the forward direction of the car
         // (this returns a negative number when traveling backwards)
         float forwardSpeed = Vector3.Dot(transform.forward, rigidBody.velocity);
-        Debug.Log("Speed: " + forwardSpeed);
+        //Debug.Log("Speed: " + forwardSpeed);
 
         // Calculate how close the car is to top speed
         // as a number from zero to one

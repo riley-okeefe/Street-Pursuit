@@ -32,6 +32,7 @@ public class DemoEnemySpawnScript : MonoBehaviour
             {
                 SpawnEnemy(spawnPosition1);
                 Debug.Log("First wave spawned at spawn position 1.");
+                Debug.Log(spawnPosition1);
                 firstWaveSpawned = true;
             }
         }
