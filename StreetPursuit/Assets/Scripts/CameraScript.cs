@@ -4,15 +4,20 @@ using UnityEngine;
 
 public class CameraScript : MonoBehaviour
 {
-    public Transform player;
-    public float distanceFromPlayer = 10f,
-        heightOffset = 2.5f;
+    public GameManager gameManager;
+    public float distanceFromCar = 10f;
+    public float heightOffset = 2.5f;
 
     private void LateUpdate()
     {
-        Vector3 targetPosition = player.position - player.forward * distanceFromPlayer;
-        targetPosition.y += heightOffset;
-        transform.position = targetPosition;
-        transform.LookAt(player);
+        if (gameManager != null && gameManager.spawnedCar != null)
+        {
+            GameObject spawnedCar = gameManager.spawnedCar;
+            Vector3 targetPosition = spawnedCar.transform.position - spawnedCar.transform.forward * distanceFromCar;
+            targetPosition.y += heightOffset;
+            transform.position = targetPosition;
+            transform.LookAt(spawnedCar.transform);
+        }
     }
 }
+

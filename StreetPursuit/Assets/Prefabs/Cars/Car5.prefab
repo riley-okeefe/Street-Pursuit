@@ -271,6 +271,7 @@ GameObject:
   - component: {fileID: 2700209050995308787}
   - component: {fileID: 3588956380228734927}
   - component: {fileID: 165745766524480937}
+  - component: {fileID: 4655181290595629417}
   m_Layer: 0
   m_Name: Car5
   m_TagString: Untagged
@@ -286,7 +287,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4771573676188815463}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 255.93, y: 1.2068166, z: 299.55}
   m_LocalScale: {x: 0.64643, y: 0.64643, z: 0.64643}
   m_ConstrainProportionsScale: 0
@@ -343,10 +344,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   motorTorque: 2000
   brakeTorque: 2000
-  maxSpeed: 20
+  maxSpeed: 60
   steeringRange: 50
   steeringRangeAtMaxSpeed: 30
   centreOfGravityOffset: -1
+  driftTorque: 1000
 --- !u!114 &165745766524480937
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -360,6 +362,24 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   startPos: {x: 294.896, y: 0.36657855, z: 285.47815}
+--- !u!114 &4655181290595629417
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4771573676188815463}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 20f3b243f7913064391e7d69d62c01a1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerObj: {fileID: 4771573676188815463}
+  experienceOrb: {fileID: 4376578165929847019, guid: ee4ce08e2d73539449b749d70c52b2b9, type: 3}
+  xpInstance1: {fileID: 0}
+  xpInstance2: {fileID: 0}
+  xpInstance3: {fileID: 0}
+  xpInstance4: {fileID: 0}
 --- !u!1 &5436552686082042010
 GameObject:
   m_ObjectHideFlags: 0

@@ -358,6 +358,7 @@ GameObject:
   - component: {fileID: 3435420719209398783}
   - component: {fileID: 5869221377502192754}
   - component: {fileID: 5695051516429334289}
+  - component: {fileID: 6342019189180005604}
   m_Layer: 0
   m_Name: Car1
   m_TagString: Untagged
@@ -373,7 +374,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2264447973679842837}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 139.3, y: 0.701, z: 9.921}
   m_LocalScale: {x: 0.5816063, y: 0.5816063, z: 0.5816063}
   m_ConstrainProportionsScale: 0
@@ -431,10 +432,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   motorTorque: 2000
   brakeTorque: 2000
-  maxSpeed: 20
-  steeringRange: 30
-  steeringRangeAtMaxSpeed: 10
+  maxSpeed: 60
+  steeringRange: 50
+  steeringRangeAtMaxSpeed: 30
   centreOfGravityOffset: -1
+  driftTorque: 1000
 --- !u!114 &5695051516429334289
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -447,7 +449,25 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a975614e1e4b9fd4891af3d741354d09, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  startPos: {x: 294.896, y: 0.36657855, z: 285.47815}
+  startPos: {x: 33.99, y: 6.75, z: 220.23}
+--- !u!114 &6342019189180005604
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2264447973679842837}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 20f3b243f7913064391e7d69d62c01a1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerObj: {fileID: 2264447973679842837}
+  experienceOrb: {fileID: 4376578165929847019, guid: ee4ce08e2d73539449b749d70c52b2b9, type: 3}
+  xpInstance1: {fileID: 0}
+  xpInstance2: {fileID: 0}
+  xpInstance3: {fileID: 0}
+  xpInstance4: {fileID: 0}
 --- !u!1 &3278520950215578246
 GameObject:
   m_ObjectHideFlags: 0

@@ -9,7 +9,7 @@ public class DisplayController : MonoBehaviour
     public float distance = 175f; // Adjust distance from camera
     public float heightOffset = -250f; // Adjust location of prefab height-wise
     public float rotationSpeed = 100f; // Adjust prefab rotation speed
-    private GameObject spawnedPrefab; // Spawned prefab
+    public GameObject spawnedPrefab; // Spawned prefab
     private GameObject originalPrefab; // Prefab to be cloned
 
     void Start()
@@ -22,6 +22,8 @@ public class DisplayController : MonoBehaviour
         }      
         // Instantiate the first prefab in the list in front of the camera
         SpawnPrefab();
+
+        PlayerPrefs.SetString("SelectedCar", "Car1");
     }
 
     void Update()
@@ -55,6 +57,8 @@ public class DisplayController : MonoBehaviour
 
         // Instantiate the new prefab
         spawnedPrefab = Instantiate(originalPrefab);
+
+        PlayerPrefs.SetString("SelectedCar", originalPrefab.name);
 
         // Make the new original prefab invisible
         SetPrefabVisibility(originalPrefab, false);

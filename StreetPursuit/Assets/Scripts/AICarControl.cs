@@ -11,7 +11,8 @@ public class AICarcontrol : MonoBehaviour
     public float steeringRange = 30;
     public float steeringRangeAtMaxSpeed = 10;
     public float centreOfGravityOffset = -1f;
-    public Transform target;
+    private Transform target;
+    public GameManager gameManager;
 
     WheelControl[] wheels;
     Rigidbody rigidBody;
@@ -35,9 +36,11 @@ public class AICarcontrol : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+
         if (isStopped)
             return;
-
+        GameObject spawnedCar = gameManager.spawnedCar;
+        target = spawnedCar.transform;
         //float vInput = Input.GetAxis("Vertical");
         //float hInput = Input.GetAxis("Horizontal");
         if (agent == null || !agent.isActiveAndEnabled || !agent.isOnNavMesh)
