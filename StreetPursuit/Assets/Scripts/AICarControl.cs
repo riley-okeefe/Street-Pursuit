@@ -15,7 +15,7 @@ public class AICarcontrol : MonoBehaviour
     public GameManager gameManager;
 
     WheelControl[] wheels;
-    Rigidbody rigidBody;
+    public Rigidbody rigidBody;
     NavMeshAgent agent;
     public float stopDuration = 3f;
     Boolean isStopped = false;
@@ -108,10 +108,14 @@ public class AICarcontrol : MonoBehaviour
     }
     private void OnCollisionEnter(Collision collision)
     {
-        if (collision.transform == target.transform)
+        if (target != null && collision.transform == target.transform)
         {
             rigidBody.isKinematic = true;
             StopCarForDuration(stopDuration);
+        } 
+        else
+        {
+            rigidBody.isKinematic= false;
         }
     }
 

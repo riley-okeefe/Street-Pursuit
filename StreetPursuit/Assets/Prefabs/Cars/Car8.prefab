@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 2644683091785458347}
   - component: {fileID: 4739107596749350379}
   m_Layer: 0
-  m_Name: Rear_Right_Wheel (1)
+  m_Name: Rear_Right_Wheel_collider
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -102,7 +102,7 @@ GameObject:
   - component: {fileID: 2762577770987266033}
   m_Layer: 0
   m_Name: CarBody
-  m_TagString: Untagged
+  m_TagString: Car
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -289,7 +289,7 @@ GameObject:
   - component: {fileID: 3198303923769413397}
   - component: {fileID: 4096392472869301029}
   m_Layer: 0
-  m_Name: Front_Right_Wheel (1)
+  m_Name: Front_Right_Wheel_collider
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -377,7 +377,7 @@ GameObject:
   - component: {fileID: 3628053398120443643}
   - component: {fileID: 6000343569848676189}
   m_Layer: 0
-  m_Name: Rear_Left_Wheel (1)
+  m_Name: Rear_Left_Wheel_collider
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -465,7 +465,7 @@ GameObject:
   - component: {fileID: 8320701830563267148}
   - component: {fileID: 1797605928292139633}
   m_Layer: 0
-  m_Name: Front_Left_Wheel (1)
+  m_Name: Front_Left_Wheel_collider
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -556,7 +556,7 @@ GameObject:
   - component: {fileID: 2708938977169577146}
   m_Layer: 0
   m_Name: Car8
-  m_TagString: Untagged
+  m_TagString: Car
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

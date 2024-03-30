@@ -870,6 +870,7 @@ MonoBehaviour:
   steeringRangeAtMaxSpeed: 10
   centreOfGravityOffset: -1
   gameManager: {fileID: 0}
+  rigidBody: {fileID: 8736377898637465035}
   stopDuration: 3
 --- !u!114 &6247098376118539151
 MonoBehaviour:
@@ -894,7 +895,7 @@ NavMeshAgent:
   m_Enabled: 1
   m_AgentTypeID: -1372625422
   m_Radius: 0.32
-  m_Speed: 5.43
+  m_Speed: 15.3
   m_Acceleration: 5.23
   avoidancePriority: 50
   m_AngularSpeed: 120
@@ -903,6 +904,6 @@ NavMeshAgent:
   m_AutoBraking: 1
   m_AutoRepath: 1
   m_Height: 1.5
-  m_BaseOffset: -0.2
+  m_BaseOffset: -0.1
   m_WalkableMask: 8
   m_ObstacleAvoidanceType: 4

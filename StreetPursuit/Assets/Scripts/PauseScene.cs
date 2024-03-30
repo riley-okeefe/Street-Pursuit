@@ -1,7 +1,9 @@
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 public class PauseScene : MonoBehaviour
 {
@@ -12,6 +14,11 @@ public class PauseScene : MonoBehaviour
     public GameObject mainMenuButton;
     public GameObject howToPlayPopup;
     public GameObject BackButton;
+    public GameObject healthHud;
+    public Slider healthSlider;
+    public GameObject endScreen;
+    public GameObject playAgainButton;
+    public GameObject mainMenuButton2;
     // Start is called before the first frame update
     void Start()
     {
@@ -21,7 +28,22 @@ public class PauseScene : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-       
+        if (DemoPlayerScript.playerHealth > 0)
+        {
+            PlayerHealth();
+        }
+        else
+        {
+            healthHud.SetActive(false);
+            pauseButton.SetActive(false);
+            pausePopup.SetActive(false);
+            resumeButton.SetActive(false);
+            howToPlayButton.SetActive(false);
+            mainMenuButton.SetActive(false);
+            howToPlayPopup.SetActive(false);
+            BackButton.SetActive(false);
+            endScreen.SetActive(true);
+        }
     }
 
     public void PauseGame()
@@ -46,6 +68,7 @@ public class PauseScene : MonoBehaviour
         howToPlayButton.SetActive(false);
         mainMenuButton.SetActive(false);
         pausePopup.SetActive(false);
+        healthHud.SetActive(false);
         howToPlayPopup.SetActive(true);
         BackButton.SetActive(true);
     }
@@ -63,5 +86,20 @@ public class PauseScene : MonoBehaviour
     public void MainMenuButton()
     {
         SceneManager.LoadScene("StartScene");
+    }
+
+    public void PlayerHealth()
+    {
+        healthSlider.value = DemoPlayerScript.playerHealth;
+    }
+
+    public void PlayAgainLevelOne() 
+    {
+        SceneManager.LoadScene("LevelOne");
+    }
+
+    public void PlayAgainLevelTwo()
+    {
+        SceneManager.LoadScene("LevelTwo");
     }
 }
