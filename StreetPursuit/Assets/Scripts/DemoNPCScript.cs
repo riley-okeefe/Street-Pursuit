@@ -35,7 +35,7 @@ public class DemoNPCScript : MonoBehaviour
         Boolean isOnCooldown = DemoDmgCDScript.IsOnCooldown();
         if (!isOnCooldown)
         {
-            DemoPlayerScript.playerHealth -= 50;
+            DemoPlayerScript.playerHealth -= 5;
             if (DemoPlayerScript.playerHealth <= 0) DemoPlayerScript.isAlive = false;
         }
     }
