@@ -10,7 +10,7 @@ public class DemoDmgCDScript : MonoBehaviour
 
     public static Boolean IsOnCooldown()
     {
-        if (cooldownTimer != 0 && Time.time - cooldownTimer > 3)
+        if (cooldownTimer != 0 && Time.time - cooldownTimer > 1)
         {
             hasDamaged = false;
         }

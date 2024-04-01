@@ -22,6 +22,11 @@ public class DemoPlayerScript : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if (!isAlive && playerHealth == 100)
+        {
+            isAlive = true;
+        }
+
         if (playerHealth == 0)
         {
             isAlive = false;

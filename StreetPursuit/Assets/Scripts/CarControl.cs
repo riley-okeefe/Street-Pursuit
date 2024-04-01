@@ -30,7 +30,10 @@ public class CarControl : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-
+        if (!DemoPlayerScript.isAlive)
+        {
+            return;
+        }
         float vInput = Input.GetAxis("Vertical");
         float hInput = Input.GetAxis("Horizontal");
 

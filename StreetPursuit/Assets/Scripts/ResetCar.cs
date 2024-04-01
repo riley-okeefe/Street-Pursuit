@@ -10,6 +10,11 @@ public class ResetCar : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if (!DemoPlayerScript.isAlive)
+        {
+            return;
+        }
+
         if (Input.GetKeyDown(KeyCode.R))
         {
             //Reset car to start position
