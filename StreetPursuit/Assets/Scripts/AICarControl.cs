@@ -119,6 +119,19 @@ public class AICarcontrol : MonoBehaviour
         }
     }
 
+    private void OnCollisionStay(Collision collision)
+    {
+        if (target != null && collision.transform == target.transform)
+        {
+            rigidBody.isKinematic = true;
+            StopCarForDuration(stopDuration);
+        }
+        else
+        {
+            rigidBody.isKinematic = false;
+        }
+    }
+
     void StopCarForDuration(float duration)
     {
         isStopped = true;
