@@ -29,12 +29,21 @@ public class LoadScene : MonoBehaviour
     public void LoadLevelOne()
     {
         SceneManager.LoadScene("LevelOne");
-        
+        Music menuMusicManager = FindObjectOfType<Music>();
+        if (menuMusicManager != null)
+        {
+            menuMusicManager.StopMenuMusic();
+        }
     }
 
     public void LoadLevelTwo()
     {
         SceneManager.LoadScene("LevelTwo");
+        Music menuMusicManager = FindObjectOfType<Music>();
+        if (menuMusicManager != null)
+        {
+            menuMusicManager.StopMenuMusic();
+        }
     }
 
     
