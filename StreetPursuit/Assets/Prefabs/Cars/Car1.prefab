@@ -251,7 +251,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   wheelModel: {fileID: 9210692127131871416}
-  WheelCollider: {fileID: 0}
+  WheelCollider: {fileID: 1979166678010678608}
   steerable: 0
   motorized: 1
 --- !u!1 &1019757522845029321
@@ -479,7 +479,7 @@ GameObject:
   - component: {fileID: 556641494854727788}
   - component: {fileID: 6380018335139896298}
   - component: {fileID: 3872919922137703269}
-  - component: {fileID: 1550273696728127536}
+  - component: {fileID: 7508252981825816429}
   m_Layer: 0
   m_Name: CarBody
   m_TagString: Car
@@ -496,8 +496,8 @@ Transform:
   m_GameObject: {fileID: 3278520950215578246}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0, y: 0.08, z: 0}
-  m_LocalScale: {x: 1, y: 0.74512786, z: 1}
+  m_LocalPosition: {x: -0, y: 0.268, z: 0}
+  m_LocalScale: {x: 1, y: 0.9167058, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 6740008981273680625}
@@ -552,7 +552,7 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!64 &1550273696728127536
+--- !u!64 &7508252981825816429
 MeshCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -742,7 +742,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   wheelModel: {fileID: 3641703098099596618}
-  WheelCollider: {fileID: 0}
+  WheelCollider: {fileID: 24990220630383028}
   steerable: 1
   motorized: 1
 --- !u!1 &6455169438398671128
@@ -913,7 +913,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   wheelModel: {fileID: 1749452679475711146}
-  WheelCollider: {fileID: 0}
+  WheelCollider: {fileID: 5124940600561853517}
   steerable: 0
   motorized: 1
 --- !u!1 &8500671563674735095
@@ -1001,6 +1001,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   wheelModel: {fileID: 4369164783967040181}
-  WheelCollider: {fileID: 0}
+  WheelCollider: {fileID: 4842904516259845383}
   steerable: 1
   motorized: 1

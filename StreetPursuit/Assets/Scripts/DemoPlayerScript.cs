@@ -7,7 +7,7 @@ public class DemoPlayerScript : MonoBehaviour
 {
     public GameObject playerObj, experienceOrb, xpInstance1, xpInstance2, xpInstance3, xpInstance4;
     private int experiencePoints = 0;
-    public static int playerHealth;
+    public static int playerHealth = 100;
     public static float dmgCooldown;
     public static Boolean isAlive = true;
     //private float playerSpeed = 5f;
@@ -21,7 +21,6 @@ public class DemoPlayerScript : MonoBehaviour
     {
         // Set player health
         playerHealth = 100;
-
         // Instantiate experience orbs
         xpInstance1 = Instantiate(experienceOrb);
         xpInstance1.transform.position = new Vector3(131.778564f, 0.560000002f, 305.23999f);
@@ -42,37 +41,6 @@ public class DemoPlayerScript : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        // Movement controls
-        //movement = new Vector3(0, 0, Input.GetAxis("Vertical"));
-        // Turn controls
-        //movementRotation = new Vector3(0, Input.GetAxis("Horizontal"), 0);
-
-        // If moving forward, rotate player in given direction
-        //if (movement.z > 0)
-        //{
-        //    playerObj.transform.Rotate(movementRotation * turnSpeed * Time.deltaTime);
-        //}
-
-        // If moving in backward, reverse rotation
-        //if (movement.z < 0)
-        //{
-        //    movementRotation = -movementRotation;
-        //    playerObj.transform.Rotate(movementRotation * turnSpeed * Time.deltaTime);
-        //}
-
-        // Move player
-        //playerObj.transform.Translate(movement * playerSpeed * Time.deltaTime);
-
-        // Player is dead
-        //if (!isAlive)
-        //{
-            // Do something
-            //Destroy(playerObj);
-          //  Debug.Log("Player Dead!");
-            //playerObj.GetComponent<Renderer>().material.color = Color.yellow;
-            //playerObj.GetComponent<Renderer>().enabled = false;
-        //}
-        //Debug.Log(experiencePoints);
         if (playerHealth == 0)
         {
             isAlive = false;

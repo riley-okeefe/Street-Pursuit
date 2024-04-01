@@ -85,7 +85,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   wheelModel: {fileID: 8177857264752852439}
-  WheelCollider: {fileID: 0}
+  WheelCollider: {fileID: 8566194880482665643}
   steerable: 1
   motorized: 0
 --- !u!1 &2588438836949310783
@@ -173,7 +173,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   wheelModel: {fileID: 3547576982529038651}
-  WheelCollider: {fileID: 0}
+  WheelCollider: {fileID: 3815211010531143735}
   steerable: 0
   motorized: 1
 --- !u!1 &3557835881219064979
@@ -367,7 +367,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   wheelModel: {fileID: 6688172796365947292}
-  WheelCollider: {fileID: 0}
+  WheelCollider: {fileID: 2772900491727842553}
   steerable: 1
   motorized: 0
 --- !u!1 &3663850399545408324
@@ -538,7 +538,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   wheelModel: {fileID: 4387963600908958797}
-  WheelCollider: {fileID: 0}
+  WheelCollider: {fileID: 4750419944339291926}
   steerable: 0
   motorized: 1
 --- !u!1 &5580207162820445055
