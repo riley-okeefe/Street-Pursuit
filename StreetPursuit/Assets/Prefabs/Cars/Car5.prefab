@@ -377,11 +377,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   playerObj: {fileID: 4771573676188815463}
-  experienceOrb: {fileID: 4376578165929847019, guid: ee4ce08e2d73539449b749d70c52b2b9, type: 3}
-  xpInstance1: {fileID: 0}
-  xpInstance2: {fileID: 0}
-  xpInstance3: {fileID: 0}
-  xpInstance4: {fileID: 0}
 --- !u!82 &972130344858311033
 AudioSource:
   m_ObjectHideFlags: 0
