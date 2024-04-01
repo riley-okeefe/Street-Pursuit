@@ -78,6 +78,7 @@ public class PauseScene : MonoBehaviour
         resumeButton.SetActive(true);
         howToPlayButton.SetActive(true);
         mainMenuButton.SetActive(true);
+        healthHud.SetActive(true);
         howToPlayPopup.SetActive(false);
         BackButton.SetActive(false);
     }
