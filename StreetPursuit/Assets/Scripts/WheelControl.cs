@@ -4,7 +4,7 @@ public class WheelControl : MonoBehaviour
 {
     public Transform wheelModel;
 
-    [HideInInspector] public WheelCollider WheelCollider;
+    public WheelCollider WheelCollider;
 
     // Create properties for the CarControl script
     // (You should enable/disable these via the 

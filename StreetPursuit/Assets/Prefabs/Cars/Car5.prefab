@@ -168,7 +168,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   wheelModel: {fileID: 3058020354683905077}
-  WheelCollider: {fileID: 0}
+  WheelCollider: {fileID: 2305532899121999183}
   steerable: 0
   motorized: 1
 --- !u!1 &4378535578503390451
@@ -256,7 +256,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   wheelModel: {fileID: 838237235085319257}
-  WheelCollider: {fileID: 0}
+  WheelCollider: {fileID: 2135014311197149775}
   steerable: 1
   motorized: 0
 --- !u!1 &4771573676188815463
@@ -291,7 +291,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 255.93, y: 1.2068166, z: 299.55}
-  m_LocalScale: {x: 0.64643, y: 0.64643, z: 0.64643}
+  m_LocalScale: {x: 0.67500216, y: 0.67500216, z: 0.67500216}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 4192016389161494052}
@@ -363,7 +363,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a975614e1e4b9fd4891af3d741354d09, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  startPos: {x: 294.896, y: 0.36657855, z: 285.47815}
+  startPos: {x: 33.99, y: 6.75, z: 220.23}
 --- !u!114 &4655181290595629417
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -659,7 +659,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   wheelModel: {fileID: 1522002017379934467}
-  WheelCollider: {fileID: 0}
+  WheelCollider: {fileID: 520073310595749511}
   steerable: 1
   motorized: 0
 --- !u!1 &6059368035595338144
@@ -936,7 +936,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   wheelModel: {fileID: 5000694789724452744}
-  WheelCollider: {fileID: 0}
+  WheelCollider: {fileID: 3548037243273730991}
   steerable: 0
   motorized: 1
 --- !u!1 &8556459179782909218

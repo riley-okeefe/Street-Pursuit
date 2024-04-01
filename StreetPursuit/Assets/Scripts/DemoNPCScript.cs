@@ -32,14 +32,27 @@ public class DemoNPCScript : MonoBehaviour
 
     private void OnCollisionEnter(Collision collision)
     {
-        //Boolean isOnCooldown = DemoDmgCDScript.IsOnCooldown();
-        //if (!isOnCooldown)
-        //{
+        Boolean isOnCooldown = DemoDmgCDScript.IsOnCooldown();
+        if (!isOnCooldown)
+        {
             if(collision.gameObject.tag == "Car")
             {
                 DemoPlayerScript.playerHealth -= 5;
                 if (DemoPlayerScript.playerHealth <= 0) DemoPlayerScript.isAlive = false;
             }
-       // }
+        }
+    }
+
+    private void OnCollisionStay(Collision collision)
+    {
+        Boolean isOnCooldown = DemoDmgCDScript.IsOnCooldown();
+        if (!isOnCooldown)
+        {
+            if (collision.gameObject.tag == "Car")
+            {
+                DemoPlayerScript.playerHealth -= 5;
+                if (DemoPlayerScript.playerHealth <= 0) DemoPlayerScript.isAlive = false;
+            }
+        }
     }
 }

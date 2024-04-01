@@ -22,17 +22,13 @@ public class PauseScene : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+
     }
 
     // Update is called once per frame
     void Update()
     {
-        if (DemoPlayerScript.playerHealth > 0)
-        {
-            PlayerHealth();
-        }
-        else
+        if (DemoPlayerScript.playerHealth == 0)
         {
             healthHud.SetActive(false);
             pauseButton.SetActive(false);
@@ -43,6 +39,9 @@ public class PauseScene : MonoBehaviour
             howToPlayPopup.SetActive(false);
             BackButton.SetActive(false);
             endScreen.SetActive(true);
+        } else
+        {
+            PlayerHealth();
         }
     }
 
@@ -79,12 +78,14 @@ public class PauseScene : MonoBehaviour
         resumeButton.SetActive(true);
         howToPlayButton.SetActive(true);
         mainMenuButton.SetActive(true);
+        healthHud.SetActive(true);
         howToPlayPopup.SetActive(false);
         BackButton.SetActive(false);
     }
 
     public void MainMenuButton()
     {
+        Time.timeScale = 1.0f;
         SceneManager.LoadScene("StartScene");
     }
 
