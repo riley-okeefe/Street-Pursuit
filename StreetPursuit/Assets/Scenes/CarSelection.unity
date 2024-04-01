@@ -508,13 +508,17 @@ PrefabInstance:
       propertyPath: collisionSound
       value: 
       objectReference: {fileID: 0}
+    - target: {fileID: 2243937762891698787, guid: 0cbd6e5da31e96d4ea851a8f4b59aed2, type: 3}
+      propertyPath: m_Constraints
+      value: 14
+      objectReference: {fileID: 0}
     m_RemovedComponents:
-    - {fileID: 2243937762891698787, guid: 0cbd6e5da31e96d4ea851a8f4b59aed2, type: 3}
     - {fileID: 6255388952717356024, guid: 0cbd6e5da31e96d4ea851a8f4b59aed2, type: 3}
     - {fileID: 1551876222583532139, guid: 0cbd6e5da31e96d4ea851a8f4b59aed2, type: 3}
     - {fileID: 7839111922947914120, guid: 0cbd6e5da31e96d4ea851a8f4b59aed2, type: 3}
     - {fileID: 3395841078962476461, guid: 0cbd6e5da31e96d4ea851a8f4b59aed2, type: 3}
     - {fileID: 946604352205549331, guid: 0cbd6e5da31e96d4ea851a8f4b59aed2, type: 3}
+    - {fileID: 2243937762891698787, guid: 0cbd6e5da31e96d4ea851a8f4b59aed2, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
@@ -587,13 +591,17 @@ PrefabInstance:
       propertyPath: collisionSound
       value: 
       objectReference: {fileID: 0}
+    - target: {fileID: 8804358627294796963, guid: 99873984385fb5e439af19e5af9e632f, type: 3}
+      propertyPath: m_Constraints
+      value: 14
+      objectReference: {fileID: 0}
     m_RemovedComponents:
-    - {fileID: 8804358627294796963, guid: 99873984385fb5e439af19e5af9e632f, type: 3}
     - {fileID: 113856337870061553, guid: 99873984385fb5e439af19e5af9e632f, type: 3}
     - {fileID: 7955710857345625589, guid: 99873984385fb5e439af19e5af9e632f, type: 3}
     - {fileID: 109792488170175513, guid: 99873984385fb5e439af19e5af9e632f, type: 3}
     - {fileID: 7018282276568631754, guid: 99873984385fb5e439af19e5af9e632f, type: 3}
     - {fileID: 6636514597987639516, guid: 99873984385fb5e439af19e5af9e632f, type: 3}
+    - {fileID: 8804358627294796963, guid: 99873984385fb5e439af19e5af9e632f, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
@@ -1068,17 +1076,21 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4137215104961418634, guid: c935558ea4ee63746a5a53b50804994b, type: 3}
+      propertyPath: m_Constraints
+      value: 14
+      objectReference: {fileID: 0}
     - target: {fileID: 4240643857264938865, guid: c935558ea4ee63746a5a53b50804994b, type: 3}
       propertyPath: collisionSound
       value: 
       objectReference: {fileID: 0}
     m_RemovedComponents:
-    - {fileID: 4137215104961418634, guid: c935558ea4ee63746a5a53b50804994b, type: 3}
     - {fileID: 372659049095667240, guid: c935558ea4ee63746a5a53b50804994b, type: 3}
     - {fileID: 2888683699785424200, guid: c935558ea4ee63746a5a53b50804994b, type: 3}
     - {fileID: 8665465409306719262, guid: c935558ea4ee63746a5a53b50804994b, type: 3}
     - {fileID: 6460979589104997403, guid: c935558ea4ee63746a5a53b50804994b, type: 3}
     - {fileID: 4240643857264938865, guid: c935558ea4ee63746a5a53b50804994b, type: 3}
+    - {fileID: 4137215104961418634, guid: c935558ea4ee63746a5a53b50804994b, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
@@ -1228,13 +1240,17 @@ PrefabInstance:
       propertyPath: collisionSound
       value: 
       objectReference: {fileID: 0}
+    - target: {fileID: 3640872184272082964, guid: a446810b4feee0342962f7375c74f6a0, type: 3}
+      propertyPath: m_Constraints
+      value: 14
+      objectReference: {fileID: 0}
     m_RemovedComponents:
-    - {fileID: 3640872184272082964, guid: a446810b4feee0342962f7375c74f6a0, type: 3}
     - {fileID: 8758239390408749871, guid: a446810b4feee0342962f7375c74f6a0, type: 3}
     - {fileID: 1038540360972806357, guid: a446810b4feee0342962f7375c74f6a0, type: 3}
     - {fileID: 1277899717357237974, guid: a446810b4feee0342962f7375c74f6a0, type: 3}
     - {fileID: 7692133699504517797, guid: a446810b4feee0342962f7375c74f6a0, type: 3}
     - {fileID: 1329699742404900061, guid: a446810b4feee0342962f7375c74f6a0, type: 3}
+    - {fileID: 3640872184272082964, guid: a446810b4feee0342962f7375c74f6a0, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
@@ -1312,13 +1328,17 @@ PrefabInstance:
       propertyPath: collisionSound
       value: 
       objectReference: {fileID: 0}
+    - target: {fileID: 4542087370962713961, guid: a6c1dd22aab11f943a7de21a160938a7, type: 3}
+      propertyPath: m_Constraints
+      value: 14
+      objectReference: {fileID: 0}
     m_RemovedComponents:
-    - {fileID: 4542087370962713961, guid: a6c1dd22aab11f943a7de21a160938a7, type: 3}
     - {fileID: 2479660360794492954, guid: a6c1dd22aab11f943a7de21a160938a7, type: 3}
     - {fileID: 2509821005154628526, guid: a6c1dd22aab11f943a7de21a160938a7, type: 3}
     - {fileID: 8657707078084006057, guid: a6c1dd22aab11f943a7de21a160938a7, type: 3}
     - {fileID: 2660663352939437909, guid: a6c1dd22aab11f943a7de21a160938a7, type: 3}
     - {fileID: 111230821496634623, guid: a6c1dd22aab11f943a7de21a160938a7, type: 3}
+    - {fileID: 4542087370962713961, guid: a6c1dd22aab11f943a7de21a160938a7, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
@@ -1619,17 +1639,21 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8251144571176846506, guid: 21eccd1df4cce0b42b03ae31b91a2882, type: 3}
+      propertyPath: m_Constraints
+      value: 14
+      objectReference: {fileID: 0}
     - target: {fileID: 8690823642370679727, guid: 21eccd1df4cce0b42b03ae31b91a2882, type: 3}
       propertyPath: collisionSound
       value: 
       objectReference: {fileID: 0}
     m_RemovedComponents:
-    - {fileID: 8251144571176846506, guid: 21eccd1df4cce0b42b03ae31b91a2882, type: 3}
     - {fileID: 3767939362971495192, guid: 21eccd1df4cce0b42b03ae31b91a2882, type: 3}
     - {fileID: 6664853168746645844, guid: 21eccd1df4cce0b42b03ae31b91a2882, type: 3}
     - {fileID: 4912777035814906713, guid: 21eccd1df4cce0b42b03ae31b91a2882, type: 3}
     - {fileID: 8842012416338523166, guid: 21eccd1df4cce0b42b03ae31b91a2882, type: 3}
     - {fileID: 8690823642370679727, guid: 21eccd1df4cce0b42b03ae31b91a2882, type: 3}
+    - {fileID: 8251144571176846506, guid: 21eccd1df4cce0b42b03ae31b91a2882, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
@@ -1698,17 +1722,21 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2865160138220830126, guid: 7f9f06fe325089a40a5a101b03f5d4e5, type: 3}
+      propertyPath: m_Constraints
+      value: 14
+      objectReference: {fileID: 0}
     - target: {fileID: 7148629561785188053, guid: 7f9f06fe325089a40a5a101b03f5d4e5, type: 3}
       propertyPath: collisionSound
       value: 
       objectReference: {fileID: 0}
     m_RemovedComponents:
-    - {fileID: 2865160138220830126, guid: 7f9f06fe325089a40a5a101b03f5d4e5, type: 3}
     - {fileID: 680210613938930996, guid: 7f9f06fe325089a40a5a101b03f5d4e5, type: 3}
     - {fileID: 3387855239949005735, guid: 7f9f06fe325089a40a5a101b03f5d4e5, type: 3}
     - {fileID: 1322352570963458482, guid: 7f9f06fe325089a40a5a101b03f5d4e5, type: 3}
     - {fileID: 2913851008655797464, guid: 7f9f06fe325089a40a5a101b03f5d4e5, type: 3}
     - {fileID: 7148629561785188053, guid: 7f9f06fe325089a40a5a101b03f5d4e5, type: 3}
+    - {fileID: 2865160138220830126, guid: 7f9f06fe325089a40a5a101b03f5d4e5, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
@@ -1777,19 +1805,27 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3586877734426213667, guid: 9ea2ea91c8ce9fa41abab502c21dce33, type: 3}
+      propertyPath: m_ProvidesContacts
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5051261355588131168, guid: 9ea2ea91c8ce9fa41abab502c21dce33, type: 3}
+      propertyPath: m_Constraints
+      value: 14
+      objectReference: {fileID: 0}
     - target: {fileID: 8792122738928706531, guid: 9ea2ea91c8ce9fa41abab502c21dce33, type: 3}
       propertyPath: collisionSound
       value: 
       objectReference: {fileID: 0}
     m_RemovedComponents:
-    - {fileID: 8028783280075503053, guid: 9ea2ea91c8ce9fa41abab502c21dce33, type: 3}
-    - {fileID: 4199225390442661010, guid: 9ea2ea91c8ce9fa41abab502c21dce33, type: 3}
-    - {fileID: 5051261355588131168, guid: 9ea2ea91c8ce9fa41abab502c21dce33, type: 3}
+    - {fileID: 0}
+    - {fileID: 0}
     - {fileID: 3266791647103155471, guid: 9ea2ea91c8ce9fa41abab502c21dce33, type: 3}
     - {fileID: 7719922141551070804, guid: 9ea2ea91c8ce9fa41abab502c21dce33, type: 3}
     - {fileID: 3371474346111750493, guid: 9ea2ea91c8ce9fa41abab502c21dce33, type: 3}
     - {fileID: 5934923849195896663, guid: 9ea2ea91c8ce9fa41abab502c21dce33, type: 3}
     - {fileID: 8792122738928706531, guid: 9ea2ea91c8ce9fa41abab502c21dce33, type: 3}
+    - {fileID: 5051261355588131168, guid: 9ea2ea91c8ce9fa41abab502c21dce33, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
