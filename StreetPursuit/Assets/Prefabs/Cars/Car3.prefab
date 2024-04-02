@@ -845,7 +845,7 @@ MonoBehaviour:
   wheelModel: {fileID: 4934307147355148543}
   WheelCollider: {fileID: 8268671641786996794}
   steerable: 1
-  motorized: 0
+  motorized: 1
 --- !u!1 &7017131181612241215
 GameObject:
   m_ObjectHideFlags: 0
@@ -933,7 +933,7 @@ MonoBehaviour:
   wheelModel: {fileID: 1665450051778369111}
   WheelCollider: {fileID: 753234962172851757}
   steerable: 1
-  motorized: 0
+  motorized: 1
 --- !u!1 &7701359059761601635
 GameObject:
   m_ObjectHideFlags: 0

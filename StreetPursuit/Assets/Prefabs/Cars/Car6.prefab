@@ -87,7 +87,7 @@ MonoBehaviour:
   wheelModel: {fileID: 8177857264752852439}
   WheelCollider: {fileID: 8566194880482665643}
   steerable: 1
-  motorized: 0
+  motorized: 1
 --- !u!1 &2588438836949310783
 GameObject:
   m_ObjectHideFlags: 0
@@ -369,7 +369,7 @@ MonoBehaviour:
   wheelModel: {fileID: 6688172796365947292}
   WheelCollider: {fileID: 2772900491727842553}
   steerable: 1
-  motorized: 0
+  motorized: 1
 --- !u!1 &3663850399545408324
 GameObject:
   m_ObjectHideFlags: 0
@@ -659,11 +659,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   playerObj: {fileID: 5580207162820445055}
-  experienceOrb: {fileID: 4376578165929847019, guid: ee4ce08e2d73539449b749d70c52b2b9, type: 3}
-  xpInstance1: {fileID: 0}
-  xpInstance2: {fileID: 0}
-  xpInstance3: {fileID: 0}
-  xpInstance4: {fileID: 0}
 --- !u!82 &1691220345885045075
 AudioSource:
   m_ObjectHideFlags: 0
