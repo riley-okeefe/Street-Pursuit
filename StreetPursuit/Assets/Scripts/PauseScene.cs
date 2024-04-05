@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.SceneManagement;
@@ -19,7 +20,6 @@ public class PauseScene : MonoBehaviour
     public GameObject endScreen;
     public GameObject playAgainButton;
     public GameObject mainMenuButton2;
-    // Start is called before the first frame update
     void Start()
     {
 
