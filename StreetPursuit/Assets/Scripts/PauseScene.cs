@@ -20,6 +20,7 @@ public class PauseScene : MonoBehaviour
     public GameObject endScreen;
     public GameObject playAgainButton;
     public GameObject mainMenuButton2;
+    public GameObject TimerBox;
     void Start()
     {
 
@@ -38,6 +39,7 @@ public class PauseScene : MonoBehaviour
             mainMenuButton.SetActive(false);
             howToPlayPopup.SetActive(false);
             BackButton.SetActive(false);
+            TimerBox.SetActive(false);
             endScreen.SetActive(true);
         } else
         {
@@ -68,6 +70,7 @@ public class PauseScene : MonoBehaviour
         mainMenuButton.SetActive(false);
         pausePopup.SetActive(false);
         healthHud.SetActive(false);
+        TimerBox.SetActive(false);
         howToPlayPopup.SetActive(true);
         BackButton.SetActive(true);
     }
@@ -79,6 +82,7 @@ public class PauseScene : MonoBehaviour
         howToPlayButton.SetActive(true);
         mainMenuButton.SetActive(true);
         healthHud.SetActive(true);
+        TimerBox.SetActive (true);
         howToPlayPopup.SetActive(false);
         BackButton.SetActive(false);
     }

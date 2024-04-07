@@ -9,6 +9,8 @@ public class DemoEnemySpawnScript : MonoBehaviour
     private float spawnTimer;
     private Boolean firstWaveSpawned = false,
         secondWaveSpawned = false,
+        thirdWaveSpawned = false,
+        fourthWaveSpawned = false,
         lastWaveSpawned = false;
 
     //private Vector3 spawnPosition1 = new Vector3(-25f, 1f, -25f),
@@ -48,6 +50,30 @@ public class DemoEnemySpawnScript : MonoBehaviour
         }
 
         if (Time.time - spawnTimer > 45)
+        {
+            if (!thirdWaveSpawned)
+            {
+                SpawnEnemy(spawnPosition1);
+                Debug.Log("Last wave spawned at spawn position 1.");
+                SpawnEnemy(spawnPosition2);
+                Debug.Log("Last wave spawned at spawn position 2.");
+                thirdWaveSpawned = true;
+            }
+        }
+
+        if (Time.time - spawnTimer > 60)
+        {
+            if (!fourthWaveSpawned)
+            {
+                SpawnEnemy(spawnPosition1);
+                Debug.Log("Last wave spawned at spawn position 1.");
+                SpawnEnemy(spawnPosition2);
+                Debug.Log("Last wave spawned at spawn position 2.");
+                fourthWaveSpawned = true;
+            }
+        }
+
+        if (Time.time - spawnTimer > 75)
         {
             if (!lastWaveSpawned)
             {
