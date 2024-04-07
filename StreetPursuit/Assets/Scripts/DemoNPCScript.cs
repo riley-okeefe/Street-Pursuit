@@ -25,7 +25,6 @@ public class DemoNPCScript : MonoBehaviour
             {
                 hasLeveledUp = true;
                 Debug.Log("15 seconds have passed");
-                //npc.transform.GetComponent<Renderer>().material.color = Color.black;
             }
         }
     }

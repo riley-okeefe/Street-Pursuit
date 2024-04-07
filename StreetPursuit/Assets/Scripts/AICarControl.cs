@@ -41,8 +41,6 @@ public class AICarcontrol : MonoBehaviour
             return;
         GameObject spawnedCar = gameManager.spawnedCar;
         target = spawnedCar.transform;
-        //float vInput = Input.GetAxis("Vertical");
-        //float hInput = Input.GetAxis("Horizontal");
         if (agent == null || !agent.isActiveAndEnabled || !agent.isOnNavMesh)
             return;
         agent.SetDestination(target.position);
@@ -73,7 +71,6 @@ public class AICarcontrol : MonoBehaviour
 
         // Check whether the user input is in the same direction 
         // as the car's velocity
-        //bool isAccelerating = Mathf.Sign(vInput) == Mathf.Sign(forwardSpeed);
         bool isAccelerating = forwardSpeed > 0;
 
         foreach (var wheel in wheels)
@@ -89,7 +86,6 @@ public class AICarcontrol : MonoBehaviour
                 // Apply torque to Wheel colliders that have "Motorized" enabled
                 if (wheel.motorized)
                 {
-                    //wheel.WheelCollider.motorTorque = vInput * currentMotorTorque;
                     wheel.WheelCollider.motorTorque = currentMotorTorque;
 
                 }
@@ -99,8 +95,6 @@ public class AICarcontrol : MonoBehaviour
             {
                 // If the user is trying to go in the opposite direction
                 // apply brakes to all wheels
-                //wheel.WheelCollider.brakeTorque = Mathf.Abs(vInput) * brakeTorque;
-                //wheel.WheelCollider.motorTorque = 0;
                 wheel.WheelCollider.brakeTorque = brakeTorque;
                 wheel.WheelCollider.motorTorque = 0;
             }
