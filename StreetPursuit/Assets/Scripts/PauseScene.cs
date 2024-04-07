@@ -21,14 +21,22 @@ public class PauseScene : MonoBehaviour
     public GameObject playAgainButton;
     public GameObject mainMenuButton2;
     public GameObject TimerBox;
+    public GameObject WinScreen;
+    public GameObject continueButton;
+    public GameObject mainMenuButton3;
+    float elapsedTime;
+    public bool hasWon;
     void Start()
     {
-
+        hasWon = false;
     }
 
     // Update is called once per frame
     void Update()
     {
+        elapsedTime += Time.deltaTime;
+        //elapsedTime += Time.deltaTime;
+        Debug.Log(elapsedTime);
         if (DemoPlayerScript.playerHealth == 0)
         {
             healthHud.SetActive(false);
@@ -40,10 +48,23 @@ public class PauseScene : MonoBehaviour
             howToPlayPopup.SetActive(false);
             BackButton.SetActive(false);
             TimerBox.SetActive(false);
+            WinScreen.SetActive(false);
             endScreen.SetActive(true);
-        } else
+        }
+        else
         {
             PlayerHealth();
+        }
+        if (elapsedTime >= 240f && DemoPlayerScript.playerHealth > 0 && !hasWon)
+        {
+            hasWon = true;
+            Time.timeScale = 0f;
+            healthHud.SetActive(false);
+            pauseButton.SetActive(false);
+            pausePopup.SetActive(false);
+            TimerBox.SetActive(false);
+            endScreen.SetActive(false);
+            WinScreen.SetActive(true);
         }
     }
 
@@ -60,6 +81,14 @@ public class PauseScene : MonoBehaviour
         Time.timeScale = 1.0f;
         resumeButton.SetActive(false);
         pausePopup.SetActive(false);
+        pauseButton.SetActive(true);
+    }
+    public void ContinuePlaying()
+    {
+        Time.timeScale = 1.0f;
+        WinScreen.SetActive(false);
+        healthHud.SetActive(true);
+        TimerBox.SetActive(true);
         pauseButton.SetActive(true);
     }
 

@@ -193,13 +193,17 @@ MonoBehaviour:
     - Use R key to reset your car
 
     -
-    A new cop will spawn in every minute making the chase even harder
+    A new wave of police will spawn in every 15 seconds making the chase even harder
 
-    - There
-    are various powerups that will improve your vehicles performance
+    -
+    There are various powerups that will improve your vehicles performance
 
-    If you
-    are caught by the police...game over!'
+    If
+    you are caught by the police...game over!
+
+    - If a player survives for 4 minutes
+    they win the level, and can choose to return to the main menu or to continue
+    playing'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 9a504344bde2ca844aa515eeb4614f09, type: 2}
   m_sharedMaterial: {fileID: -2736515807279894822, guid: 9a504344bde2ca844aa515eeb4614f09, type: 2}
