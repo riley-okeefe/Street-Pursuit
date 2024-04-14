@@ -3,10 +3,10 @@
     <img width="100%" src="https://github.com/riley-okeefe/Street-Pursuit/blob/main/Pictures/Street_Pursuit_logo.png"> 
 </p>
 
-##Description
+## Description
 Street Pursuit is an intense arcade racing game where players have to evade pursuing police cars.
 
-##Background
+## Background
 Street Pursuit was developed as a project for a Game Design and Development course taught by Professor Fatemeh Bayeh at Saint Mary's University.
 
 ## Contributors
